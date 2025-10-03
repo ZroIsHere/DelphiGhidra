@@ -26,7 +26,7 @@ Small Jython script for Ghidra that heuristically finds Delphi class-name string
 
 ## Config (top of script)
 
-- `BACKSCAN_BYTES` — how far back from a reference to search for pointers (default `0x400`)  
+- `BACKSCAN_BYTES` — how far back from a reference to search for pointers (default `0x1000`)  
 - `MAX_REFERENCES_TO_CONSIDER` — refs per string (default `64`)  
 - `MAX_POINTER_FIELDS` — pointers to create at a candidate VMT (default `6`)  
 - `POINTER_SIZE` — 4 for 32-bit, 8 for 64-bit  
